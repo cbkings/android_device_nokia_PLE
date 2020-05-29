@@ -28,6 +28,7 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),PLE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
+include $(LOCAL_PATH)/init/Android.mk
 
 include $(CLEAR_VARS)
 
