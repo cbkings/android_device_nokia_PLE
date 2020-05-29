@@ -28,7 +28,6 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),PLE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
-include $(call all-subdir-makefiles)
 
 include $(CLEAR_VARS)
 
