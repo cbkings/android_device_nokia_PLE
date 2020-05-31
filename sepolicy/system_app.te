@@ -10,7 +10,6 @@ allow system_app boot_animation_prop:file read;
 allow system_app bootstat_prop:file read;
 allow system_app coresight_prop:file read;
 allow system_app freq_prop:file read;
-allow system_app fst_prop:file read;
 allow system_app location_prop:file read;
 allow system_app mmi_prop:file read;
 allow system_app mpdecision_prop:file read;

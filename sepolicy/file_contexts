@@ -1,5 +1,3 @@
-# NFC
-/data/vendor/nfc(/.*)?                 u:object_r:nfc_vendor_data_file:s0
 
 # Cryptkey
 /dev/block/bootdevice/by-name/cryptkey      u:object_r:metadata_block_device:s0
