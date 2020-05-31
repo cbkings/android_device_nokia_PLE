@@ -44,7 +44,6 @@
 
 #include "vendor_init.h"
 #include "property_service.h"
-#include "log.h"
 #include "util.h"
 
 using android::base::GetProperty;

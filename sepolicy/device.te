@@ -1,3 +1,7 @@
+
+# I2C
+type i2c_device, dev_type;
+
 # Goodix fingerprint
 type gx_fpd_device, dev_type;
 

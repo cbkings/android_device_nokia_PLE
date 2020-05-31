@@ -1,1 +1,4 @@
+
+type hal_bluetooth_qti, domain;
+
 allow hal_bluetooth_qti proc:file { open read };

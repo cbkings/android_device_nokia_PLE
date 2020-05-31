@@ -1,1 +1,60 @@
+
+type xlat_prop, property_type;
+
+type wigig_prop, property_type;
+
+type sys_usb_tethering_prop, property_type;
+
+type sys_usb_controller_prop, property_type;
+
+type sys_usb_configfs_prop, property_type;
+
+type sdm_idle_time_prop, property_type;
+
+type rmnet_mux_prop, property_type;
+
+type qemu_hw_mainkeys_prop, property_type;
+
+type qemu_gles_prop, property_type;
+
+type nfc_nq_prop, property_type;
+
+type netd_prop, property_type;
+
+type mpdecision_prop, property_type;
+
+type mmi_prop, property_type;
+
+type coresight_prop, property_type;
+
+type boot_animation_prop, property_type;
+
+type alarm_instance_prop, property_type;
+
+type alarm_handled_prop, property_type;
+
+type alarm_boot_prop, property_type;
+
+type wififtmd_prop, property_type;
+
+type vendor_rild_libpath_prop, property_type;
+
+type usf_prop, property_type;
+
+type uicc_prop, property_type;
+
+type scr_enabled_prop, property_type;
+
+type qdma_prop, property_type;
+
+type per_mgr_state_prop, property_type;
+
+type opengles_prop, property_type;
+
+type bg_daemon_prop, property_type;
+
+type bg_boot_complete_prop, property_type;
+
 type bootstat_prop, property_type;
+
+type wcnss_prop, property_type;

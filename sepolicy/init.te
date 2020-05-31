@@ -1,6 +1,8 @@
+
+type hal_livedisplay_default, domain;
+
 allow init debugfs:file write;
 
-allow init default_android_hwservice:hwservice_manager add;
 allow init hidl_base_hwservice:hwservice_manager add;
 
 allow init hwservicemanager:binder { call transfer };
@@ -8,10 +10,6 @@ allow init hwservicemanager:binder { call transfer };
 allow init unlabeled:dir mounton;
 
 allow init self:capability sys_module;
-
-allow init firmware_file:dir { create setattr };
-allow init shell_exec:file execute_no_trans;
-allow init vendor_file:file execute_no_trans;
 
 allow init adsprpcd:process noatsecure;
 allow init audioserver:process noatsecure;
@@ -69,7 +67,6 @@ allow init qti_init_shell:process noatsecure;
 allow init rild:process noatsecure;
 allow init rmt_storage:process noatsecure;
 allow init servicemanager:process noatsecure;
-allow init sysfs:dir write;
 # allow init sysinit:process noatsecure;
 allow init thermal-engine:process noatsecure;
 allow init toolbox:process noatsecure;

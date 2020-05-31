@@ -1,3 +1,4 @@
+
 type gx_fpd, domain;
 type gx_fpd_exec, exec_type, vendor_file_type, file_type;
 
@@ -10,7 +11,6 @@ binder_call(gx_fpd, fingerprintd)
 
 # need to find KeyStore and add self
 allow gx_fpd gx_fpd_service:service_manager { add find };
-allow gx_fpd self:capability { dac_override dac_read_search };
 
 # allow HAL module to read dir contents
 allow gx_fpd gx_fpd_data_file:file { create_file_perms };
