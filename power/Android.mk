@@ -10,6 +10,7 @@ LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_SHARED_LIBRARIES := liblog libcutils libdl libxml2
 LOCAL_SRC_FILES := power.c metadata-parser.c utils.c list.c hint-data.c powerhintparser.c power-8937.c
 LOCAL_C_INCLUDES := external/libxml2/include \
+					vendor/qcom/opensource/power \
                     external/icu/icu4c/source/common
 
 ifeq ($(TARGET_USES_INTERACTION_BOOST),true)
