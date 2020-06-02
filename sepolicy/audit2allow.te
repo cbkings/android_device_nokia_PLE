@@ -3,7 +3,6 @@
 #============= flags_health_check ==============
 allow flags_health_check apexd_prop:file { getattr open };
 allow flags_health_check bluetooth_prop:file { getattr open };
-allow flags_health_check bootloader_boot_reason_prop:file { getattr open };
 allow flags_health_check bootstat_prop:file { getattr open };
 allow flags_health_check boottime_prop:file { getattr open };
 allow flags_health_check bpf_progs_loaded_prop:file { getattr open };
@@ -48,7 +47,6 @@ allow flags_health_check hwservicemanager_prop:file { getattr open };
 allow flags_health_check ims_prop:file { getattr open };
 allow flags_health_check ipacm-diag_prop:file { getattr open };
 allow flags_health_check ipacm_prop:file { getattr open };
-allow flags_health_check last_boot_reason_prop:file { getattr open };
 allow flags_health_check llkd_prop:file { getattr open };
 allow flags_health_check location_prop:file { getattr open };
 allow flags_health_check logpersistd_logging_prop:file { getattr open };
