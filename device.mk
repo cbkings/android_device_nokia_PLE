@@ -200,12 +200,7 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
-    libcurl \
-    libgnss \
-    libgnsspps
-
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0-service
+    libcurl
     
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/gps/etc/apdr.conf:system/vendor/etc/apdr.conf \
@@ -218,8 +213,7 @@ PRODUCT_COPY_FILES += \
 
 # Health HAL
 PRODUCT_PACKAGES += \
-    android.hardware.health@1.0-impl \
-    android.hardware.health@1.0-service
+    android.hardware.health@2.1-service
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -383,8 +377,7 @@ PRODUCT_BOOT_JARS += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@1.0-impl \
-    android.hardware.sensors@1.0-service
+    android.hardware.sensors@2.0-service-mock
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/sensors/hals.conf:system/vendor/etc/sensors/hals.conf
@@ -407,8 +400,8 @@ PRODUCT_PACKAGES += \
     thermal.msm8937
 
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.0-impl \
-    android.hardware.thermal@1.0-service
+    android.hardware.thermal@2.0-impl \
+    android.hardware.thermal@2.0-service
 
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
@@ -420,8 +413,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl \
-    android.hardware.vibrator@1.0-service
+    android.hardware.vibrator@1.3-service
 
 # QCOM
 PRODUCT_COPY_FILES += \
