@@ -1,0 +1,202 @@
+
+
+#============= flags_health_check ==============
+allow flags_health_check apexd_prop:file { getattr open };
+allow flags_health_check bluetooth_prop:file { getattr open };
+allow flags_health_check bootloader_boot_reason_prop:file { getattr open };
+allow flags_health_check bootstat_prop:file { getattr open };
+allow flags_health_check boottime_prop:file { getattr open };
+allow flags_health_check bpf_progs_loaded_prop:file { getattr open };
+allow flags_health_check bservice_prop:file { getattr open };
+allow flags_health_check cnd_prop:file { getattr open };
+allow flags_health_check cnd_vendor_prop:file { getattr open };
+allow flags_health_check crash_cnt_prop:file { getattr open };
+allow flags_health_check crash_detect_prop:file { getattr open };
+allow flags_health_check ctl_adbd_prop:file { getattr open };
+allow flags_health_check ctl_bootanim_prop:file { getattr open };
+allow flags_health_check ctl_bugreport_prop:file { getattr open };
+allow flags_health_check ctl_console_prop:file { getattr open };
+allow flags_health_check ctl_default_prop:file { getattr open };
+allow flags_health_check ctl_dumpstate_prop:file { getattr open };
+allow flags_health_check ctl_fuse_prop:file { getattr open };
+allow flags_health_check ctl_gsid_prop:file { getattr open };
+allow flags_health_check ctl_interface_restart_prop:file { getattr open };
+allow flags_health_check ctl_interface_start_prop:file { getattr open };
+allow flags_health_check ctl_interface_stop_prop:file { getattr open };
+allow flags_health_check ctl_mdnsd_prop:file { getattr open };
+allow flags_health_check ctl_netmgrd_prop:file { getattr open };
+allow flags_health_check ctl_port-bridge_prop:file { getattr open };
+allow flags_health_check ctl_qcrild_prop:file { getattr open };
+allow flags_health_check ctl_qmuxd_prop:file { getattr open };
+allow flags_health_check ctl_restart_prop:file { getattr open };
+allow flags_health_check ctl_rildaemon_prop:file { getattr open };
+allow flags_health_check ctl_sigstop_prop:file { getattr open };
+allow flags_health_check ctl_start_prop:file { getattr open };
+allow flags_health_check ctl_stop_prop:file { getattr open };
+allow flags_health_check ctl_vendor_hbtp_prop:file { getattr open };
+allow flags_health_check ctl_vendor_imsrcsservice_prop:file { getattr open };
+allow flags_health_check ctl_vendor_mmid_prop:file { getattr open };
+allow flags_health_check ctl_vendor_rmt_storage_prop:file { getattr open };
+allow flags_health_check ctl_vendor_wigigsvc_prop:file { getattr open };
+allow flags_health_check device_logging_prop:file { getattr open };
+allow flags_health_check dumpstate_options_prop:file { getattr open };
+allow flags_health_check dynamic_system_prop:file { getattr open };
+allow flags_health_check firstboot_prop:file { getattr open };
+allow flags_health_check fst_prop:file { getattr open };
+allow flags_health_check gsid_prop:file { getattr open };
+allow flags_health_check heapprofd_enabled_prop:file { getattr open };
+allow flags_health_check hwservicemanager_prop:file { getattr open };
+allow flags_health_check ims_prop:file { getattr open };
+allow flags_health_check ipacm-diag_prop:file { getattr open };
+allow flags_health_check ipacm_prop:file { getattr open };
+allow flags_health_check last_boot_reason_prop:file { getattr open };
+allow flags_health_check llkd_prop:file { getattr open };
+allow flags_health_check location_prop:file { getattr open };
+allow flags_health_check logpersistd_logging_prop:file { getattr open };
+allow flags_health_check lowpan_prop:file { getattr open };
+allow flags_health_check lpdumpd_prop:file { getattr open };
+allow flags_health_check mm_osal_prop:file { getattr open };
+allow flags_health_check mm_parser_prop:file { getattr open };
+allow flags_health_check mm_video_prop:file { getattr open };
+allow flags_health_check mmc_prop:file { getattr open };
+allow flags_health_check msm_irqbalance_prop:file { getattr open };
+allow flags_health_check net_dns_prop:file { getattr open };
+allow flags_health_check netd_stable_secret_prop:file { getattr open };
+allow flags_health_check nnapi_ext_deny_product_prop:file { getattr open };
+allow flags_health_check overlay_prop:file { getattr open };
+allow flags_health_check persist_camera_prop:file { getattr open };
+allow flags_health_check persistent_properties_ready_prop:file { getattr open };
+allow flags_health_check qcom_ims_prop:file { getattr open };
+allow flags_health_check reschedule_service_prop:file { getattr open };
+allow flags_health_check safemode_prop:file { getattr open };
+allow flags_health_check sensors_dbg_prop:file { getattr open };
+allow flags_health_check sensors_prop:file { getattr open };
+allow flags_health_check serialno_prop:file { getattr open };
+allow flags_health_check slm_prop:file { getattr open };
+allow flags_health_check spcomlib_prop:file { getattr open };
+allow flags_health_check system_boot_reason_prop:file { getattr open };
+allow flags_health_check system_lmk_prop:file { getattr open };
+allow flags_health_check system_trace_prop:file { getattr open };
+allow flags_health_check test_boot_reason_prop:file { getattr open };
+allow flags_health_check theme_prop:file { getattr open };
+allow flags_health_check time_prop:file { getattr open };
+allow flags_health_check traced_enabled_prop:file { getattr open };
+allow flags_health_check traced_lazy_prop:file { getattr open };
+allow flags_health_check vendor_adsprpc_prop:file { getattr open };
+allow flags_health_check vendor_alarm_boot_prop:file { getattr open };
+allow flags_health_check vendor_audio_prop:file { getattr open };
+allow flags_health_check vendor_bluetooth_prop:file { getattr open };
+allow flags_health_check vendor_boot_mode_prop:file { getattr open };
+allow flags_health_check vendor_camera_prop:file { getattr open };
+allow flags_health_check vendor_cap_configstore_dbg_prop:file { getattr open };
+allow flags_health_check vendor_cgroup_follow_prop:file { getattr open };
+allow flags_health_check vendor_core_ctl_prop:file { getattr open };
+allow flags_health_check vendor_coresight_prop:file { getattr open };
+allow flags_health_check vendor_data_ko_prop:file { getattr open };
+allow flags_health_check vendor_data_shsusr_prop:file { getattr open };
+allow flags_health_check vendor_dataadpl_prop:file { getattr open };
+allow flags_health_check vendor_dataqdp_prop:file { getattr open };
+allow flags_health_check vendor_dataqti_prop:file { getattr open };
+allow flags_health_check vendor_debuglog_prop:file { getattr open };
+allow flags_health_check vendor_disable_spu_prop:file { getattr open };
+allow flags_health_check vendor_display_prop:file { getattr open };
+allow flags_health_check vendor_gpu_prop:file { getattr open };
+allow flags_health_check vendor_hvdcp_opti_prop:file { getattr open };
+allow flags_health_check vendor_iop_prop:file { getattr open };
+allow flags_health_check vendor_mdm_helper_prop:file { getattr open };
+allow flags_health_check vendor_mmi_prop:file { getattr open };
+allow flags_health_check vendor_modem_diag_prop:file { getattr open };
+allow flags_health_check vendor_mpctl_prop:file { getattr open };
+allow flags_health_check vendor_nfc_nq_prop:file { getattr open };
+allow flags_health_check vendor_pd_locater_dbg_prop:file { getattr open };
+allow flags_health_check vendor_per_mgr_prop:file { getattr open };
+allow flags_health_check vendor_per_mgr_state_prop:file { getattr open };
+allow flags_health_check vendor_qdcmss_prop:file { getattr open };
+allow flags_health_check vendor_qdma_prop:file { getattr open };
+allow flags_health_check vendor_qspm_dbg_prop:file { getattr open };
+allow flags_health_check vendor_qspm_prop:file { getattr open };
+allow flags_health_check vendor_qvr_prop:file { getattr open };
+allow flags_health_check vendor_radio_prop:file { getattr open };
+allow flags_health_check vendor_ramdump_prop:file { getattr open };
+allow flags_health_check vendor_scroll_prop:file { getattr open };
+allow flags_health_check vendor_ssr_prop:file { getattr open };
+allow flags_health_check vendor_sys_video_prop:file { getattr open };
+allow flags_health_check vendor_system_prop:file { getattr open };
+allow flags_health_check vendor_tee_listener_prop:file { getattr open };
+allow flags_health_check vendor_time_service_prop:file { getattr open };
+allow flags_health_check vendor_usb_prop:file { getattr open };
+allow flags_health_check vendor_video_prop:file { getattr open };
+allow flags_health_check vendor_wifi_prop:file { getattr open };
+allow flags_health_check vendor_wifi_version:file { getattr open };
+allow flags_health_check vendor_wigig_prop:file { getattr open };
+allow flags_health_check vendor_wlc_prop:file { getattr open };
+allow flags_health_check vendor_xlat_prop:file { getattr open };
+allow flags_health_check wfd_service_prop:file { getattr open };
+allow flags_health_check wfd_sys_debug_prop:file { getattr open };
+allow flags_health_check wfd_vendor_debug_prop:file { getattr open };
+allow flags_health_check wifi_prop:file { getattr open };
+allow flags_health_check wigig_core_prop:file { getattr open };
+
+#============= fsck ==============
+allow fsck block_device:blk_file { ioctl open read write };
+
+#============= hal_gnss_default ==============
+allow hal_gnss_default vndbinder_device:chr_file { ioctl open read write };
+
+#============= hal_sensors_default ==============
+allow hal_sensors_default sysfs:file { open read };
+
+#============= healthd ==============
+allow healthd sysfs:file { getattr open read };
+
+#============= hwservicemanager ==============
+allow hwservicemanager init:binder call;
+
+#============= init ==============
+allow init block_device:blk_file write;
+allow init debugfs_rmt_storage:file write;
+allow init default_android_hwservice:hwservice_manager add;
+allow init graphics_device:chr_file { ioctl open read write };
+allow init hal_bluetooth_hwservice:hwservice_manager find;
+allow init hal_display_color_hwservice:hwservice_manager add;
+allow init hal_display_postproc_hwservice:hwservice_manager add;
+allow init hal_fm_hwservice:hwservice_manager find;
+allow init hal_perf_hwservice:hwservice_manager add;
+allow init hal_qteeconnector_hwservice:hwservice_manager { add find };
+allow init ion_device:chr_file { ioctl open read };
+allow init oemfs:dir mounton;
+allow init self:binder { call transfer };
+allow init self:capability net_bind_service;
+allow init self:netlink_generic_socket { bind create };
+allow init self:socket { bind create ioctl read };
+allow init sensors_device:chr_file { ioctl open read };
+allow init shell_exec:file execute_no_trans;
+allow init ssr_device:chr_file { open read };
+allow init sysfs:file { open read setattr };
+allow init sysfs_graphics:file { open read write };
+allow init sysfs_wake_lock:file { append open };
+allow init tee_device:chr_file { ioctl open read write };
+allow init uio_device:chr_file { open read write };
+allow init vendor_file:file execute_no_trans;
+allow init vendor_per_mgr_service:service_manager { add find };
+allow init vndbinder_device:chr_file { ioctl open read write };
+allow init vndservicemanager:binder { call transfer };
+
+#============= vendor_init ==============
+allow vendor_init camera_data_file:dir { create setattr };
+allow vendor_init device:file { create write };
+allow vendor_init dhcp_data_file:dir setattr;
+allow vendor_init dpmd_data_file:dir { add_name create setattr write };
+allow vendor_init gx_fpd_data_file:dir { create setattr };
+allow vendor_init media_rw_data_file:dir setattr;
+allow vendor_init nfc_data_file:dir setattr;
+allow vendor_init system_data_file:dir { add_name create setattr write };
+allow vendor_init tombstone_data_file:dir setattr;
+allow vendor_init wifi_data_file:dir setattr;
+allow vendor_init wpa_socket:dir setattr;
+
+#============= vndservicemanager ==============
+allow vndservicemanager init:binder transfer;
+allow vndservicemanager init:dir search;
+allow vndservicemanager init:file { open read };
+allow vndservicemanager init:process getattr;
