@@ -300,11 +300,17 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.0-impl \
-    android.hardware.nfc@1.0-service \
+    vendor.nxp.hardware.nfc@1.2-service \
     com.android.nfc_extras \
-    nfc_nci.msm8937 \
-    NfcNci \
+    com.nxp.nfc.nq \
+    com.nxp.nfc.nq.xml \
+    libnqnfc-nci \
+    libnqp61-jcop-kit \
+    nfc_nci.nqx.default \
+    nqnfcee_access.xml \
+    nqnfcse_access.xml \
+    NQNfcNci \
+    SecureElement \
     Tag
 
 PRODUCT_COPY_FILES += \
